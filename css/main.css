@@ -1,7 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Nanum+Gothic:wght@400;700;800&family=Noto+Sans+KR:wght@100;300;400;500;700;900&display=swap');
 
 * {
-    /* box-sizing: border-box; */
+    box-sizing: border-box;
     margin: 0;
     padding: 0;
 }
@@ -21,18 +21,18 @@ body {
 
 .head {
     width: 1000px;
-    padding: 40px;
+    padding: 60px;
     text-align: center;
     margin: 0 auto;
 }
 
 .head h2 {
-
+    font-size: 40px;
 }
 
 .nav {
     border-top: 1px solid #eee;
-    bottom-bottom: 1px solid #eee;
+    border-bottom: 1px solid #eee;
 }
 
 .nav ul {
